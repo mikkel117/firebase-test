@@ -95,6 +95,7 @@ function App() {
         })}
         {/* mapper igem foulderItems og viser dem i en iframe */}
         {foulderItems.map((item) => {
+          
           return <iframe key={item} src={item} title='item'></iframe>;
         })}
       </div>
